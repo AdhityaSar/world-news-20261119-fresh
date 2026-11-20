@@ -1,8 +1,8 @@
 # Thursday 19 November 2026 — the world on one sheet
 
-![bounty](https://make.fun/badge/news-image-20261119.svg)
-![rank](https://make.fun/badge/news-image-20261119/rank.svg)
-![reward](https://make.fun/badge/news-image-20261119/reward.svg)
+[![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![rank](https://make.fun/badge/news-image-20261119/AdhityaSar/world-news-20261119-fresh/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![reward](https://make.fun/badge/news-image-20261119/AdhityaSar/world-news-20261119-fresh/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 
 https://make.fun/bounty/news-image-20261119
 
