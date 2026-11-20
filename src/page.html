@@ -38,35 +38,36 @@
   .tabs .d b { color: #c8102e; }
   .tabs .sep { color: #b3aa9a; font-size: 8px; padding: 0 9px; }
   /* ---------- 3. cards ---------- */
-  .cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 12px 16px 0; }
-  .card { background: #fffdf8; padding: 7px 8px 9px; }
-  .art { display: block; width: 100%; height: 84px; }
+  .cards { display: grid; grid-template-columns: repeat(4, 1fr);
+           column-gap: 12px; row-gap: 18px; padding: 13px 16px 0; }
+  .card { background: #ffffff; padding: 8px 9px 12px; }
+  .art { display: block; width: 100%; height: 68px; }
   .tag { font-size: 7.1px; font-weight: 700; letter-spacing: 1.7px; color: #c8102e; padding: 6px 0 2px; }
   .card h3 { margin: 0 0 4px; font-size: 20px; line-height: 0.98; font-weight: 700; letter-spacing: -0.4px; min-height: 40px; }
   .card p { margin: 0; font-size: 11px; line-height: 1.22; color: #34302a; }
   .card p b { color: #101828; }
   /* ---------- 4. also on thursday ---------- */
-  .also { padding: 14px 16px 0; }
-  .also h2 { margin: 0 0 6px; font-size: 11.5px; font-weight: 700; letter-spacing: 2px;
-             color: #101828; border-bottom: 1px solid #101828; padding-bottom: 3px; }
-  .also .g { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, auto);
-             grid-auto-flow: column; column-gap: 18px; row-gap: 5px; }
-  .also .entry { border-top: 1px solid #d9d2c4; padding-top: 3px; }
+  .also { margin: 14px 16px 0; }
+  .also h2 { margin: 0 0 9px; font-size: 11.5px; font-weight: 700; letter-spacing: 2px;
+             color: #101828; border-bottom: 1px solid #c9c0af; padding-bottom: 4px; }
+  .also .g { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, auto);
+             grid-auto-flow: column; column-gap: 24px; row-gap: 6px; }
+  .also .entry { padding: 1px 0 2px; }
   .also .k { font-size: 6.2px; font-weight: 700; letter-spacing: 1.5px; color: #c8102e; }
   .also .t { font-size: 10.8px; font-weight: 700; line-height: 1.15; color: #1d1a16; }
   /* ---------- 5. figures ---------- */
-  .figures { margin: 13px 16px 0; border-top: 2px solid #101828; border-bottom: 2px solid #101828;
+  .figures { margin: 14px 16px 0; border-top: 2px solid #101828; border-bottom: 2px solid #101828;
              display: grid; grid-template-columns: repeat(6, 1fr); }
-  .fig { padding: 7px 8px 7px 0; border-right: 1px solid #d9d2c4; }
+  .fig { padding: 20px 8px 20px 0; border-right: 1px solid #ddd6c8; }
   .fig:last-child { border-right: none; }
   .fig .n { font-size: 17px; font-weight: 700; letter-spacing: -0.5px; color: #c8102e; line-height: 1; }
   .fig .c { font-size: 8.2px; line-height: 1.22; color: #34302a; padding-top: 3px; }
   /* ---------- 6. footer ---------- */
-  .foot { position: absolute; left: 0; right: 0; bottom: 0; background: #101828; color: #aebbd2;
-          padding: 8px 16px 9px; }
-  .foot .f1 { font-size: 8.4px; letter-spacing: 0.2px; color: #f0ece2; }
-  .foot .f1 b { color: #ff6b7d; letter-spacing: 1.2px; }
-  .foot .f2 { font-size: 7.8px; line-height: 1.32; padding-top: 3px; font-style: italic; }
+  .foot { position: absolute; left: 0; right: 0; bottom: 0; background: #f4f1ea; color: #6b6357;
+          border-top: 1px solid #c9c0af; padding: 7px 16px 9px; }
+  .foot .f1 { font-size: 8.4px; letter-spacing: 0.2px; color: #2a2620; }
+  .foot .f1 b { color: #c8102e; letter-spacing: 1.2px; }
+  .foot .f2 { font-size: 7.6px; line-height: 1.3; padding-top: 3px; font-style: italic; color: #6b6357; }
 </style>
 </head>
 <body>
@@ -151,7 +152,7 @@
   <main class="cards">
 
     <article class="card">
-      <svg class="art" viewBox="0 0 226 84" width="226" height="84" role="img" aria-label="Three leaders at a round table in Shenzhen">
+      <svg class="art" viewBox="0 0 226 84" width="226" height="84" preserveAspectRatio="none" role="img" aria-label="Three leaders at a round table in Shenzhen">
         <rect width="226" height="84" fill="#14304a"/>
         <rect y="0" width="226" height="3" fill="#1d4368"/>
         <g fill="#e9e2d2">
@@ -175,7 +176,7 @@
     </article>
 
     <article class="card">
-      <svg class="art" viewBox="0 0 226 84" width="226" height="84" role="img" aria-label="A tilting scale labelled Myanmar and Genocide">
+      <svg class="art" viewBox="0 0 226 84" width="226" height="84" preserveAspectRatio="none" role="img" aria-label="A tilting scale labelled Myanmar and Genocide">
         <rect width="226" height="84" fill="#2a1b30"/>
         <ellipse cx="113" cy="78" rx="86" ry="8" fill="#1d1221"/>
         <rect x="110" y="26" width="5" height="46" fill="#e6dcc6"/>
@@ -198,7 +199,7 @@
     </article>
 
     <article class="card">
-      <svg class="art" viewBox="0 0 226 84" width="226" height="84" role="img" aria-label="A trading board for ANT priced at 83 and closing at 97.17">
+      <svg class="art" viewBox="0 0 226 84" width="226" height="84" preserveAspectRatio="none" role="img" aria-label="A trading board for ANT priced at 83 and closing at 97.17">
         <rect width="226" height="84" fill="#080e1a"/>
         <rect x="7" y="5" width="212" height="74" rx="2.5" fill="#111c30" stroke="#2b3d5c" stroke-width="0.9"/>
         <g stroke="#1d2c46" stroke-width="0.7">
@@ -220,7 +221,7 @@
     </article>
 
     <article class="card">
-      <svg class="art" viewBox="0 0 226 84" width="226" height="84" role="img" aria-label="Kyiv skyline with a damaged block marked embassies">
+      <svg class="art" viewBox="0 0 226 84" width="226" height="84" preserveAspectRatio="none" role="img" aria-label="Kyiv skyline with a damaged block marked embassies">
         <rect width="226" height="84" fill="#151b2b"/>
         <g fill="#26314a">
           <rect x="4" y="46" width="24" height="38"/><rect x="32" y="36" width="20" height="48"/>
@@ -251,7 +252,7 @@
     </article>
 
     <article class="card">
-      <svg class="art" viewBox="0 0 226 84" width="226" height="84" role="img" aria-label="Riyadh skyline with a struck tower marked PIF Tower">
+      <svg class="art" viewBox="0 0 226 84" width="226" height="84" preserveAspectRatio="none" role="img" aria-label="Riyadh skyline with a struck tower marked PIF Tower">
         <rect width="226" height="84" fill="#2a1c14"/>
         <g fill="#3a2a1e">
           <rect x="6" y="48" width="22" height="36"/><rect x="32" y="40" width="16" height="44"/>
@@ -284,7 +285,7 @@
     </article>
 
     <article class="card">
-      <svg class="art" viewBox="0 0 226 84" width="226" height="84" role="img" aria-label="A cutaway of an underground missile site in the Bekaa valley">
+      <svg class="art" viewBox="0 0 226 84" width="226" height="84" preserveAspectRatio="none" role="img" aria-label="A cutaway of an underground missile site in the Bekaa valley">
         <rect width="226" height="84" fill="#1b1710"/>
         <rect y="30" width="226" height="54" fill="#3a2f1c"/>
         <rect y="30" width="226" height="2" fill="#5d4b2b"/>
@@ -314,7 +315,7 @@
     </article>
 
     <article class="card">
-      <svg class="art" viewBox="0 0 226 84" width="226" height="84" role="img" aria-label="Damaged roofs at El Obeid under a drone, 37 killed">
+      <svg class="art" viewBox="0 0 226 84" width="226" height="84" preserveAspectRatio="none" role="img" aria-label="Damaged roofs at El Obeid under a drone, 37 killed">
         <rect width="226" height="84" fill="#2b1512"/>
         <rect y="58" width="226" height="26" fill="#3f2119"/>
         <g fill="#5b3025">
@@ -344,7 +345,7 @@
     </article>
 
     <article class="card">
-      <svg class="art" viewBox="0 0 226 84" width="226" height="84" role="img" aria-label="A burning house in Chattogram beside a lockdown banner">
+      <svg class="art" viewBox="0 0 226 84" width="226" height="84" preserveAspectRatio="none" role="img" aria-label="A burning house in Chattogram beside a lockdown banner">
         <rect width="226" height="84" fill="#2e140c"/>
         <rect y="62" width="226" height="22" fill="#3d1c12"/>
         <path d="M18,62 L18,40 L52,22 L86,40 L86,62 Z" fill="#5a2c1c"/>
@@ -368,7 +369,7 @@
     </article>
 
     <article class="card">
-      <svg class="art" viewBox="0 0 226 84" width="226" height="84" role="img" aria-label="A conference hall at COP31 with a gauge reading no fossil fuels, struck through">
+      <svg class="art" viewBox="0 0 226 84" width="226" height="84" preserveAspectRatio="none" role="img" aria-label="A conference hall at COP31 with a gauge reading no fossil fuels, struck through">
         <rect width="226" height="84" fill="#0d2a24"/>
         <rect x="88" y="6" width="130" height="30" rx="2" fill="#123a31" stroke="#2f6b58"/>
         <g fill="#1c4a3f">
@@ -399,7 +400,7 @@
     </article>
 
     <article class="card">
-      <svg class="art" viewBox="0 0 226 84" width="226" height="84" role="img" aria-label="Cyclone Xavier as a spiral over a Cook Islands atoll">
+      <svg class="art" viewBox="0 0 226 84" width="226" height="84" preserveAspectRatio="none" role="img" aria-label="Cyclone Xavier as a spiral over a Cook Islands atoll">
         <rect width="226" height="84" fill="#08202e"/>
         <g fill="#0d3145"><rect width="226" height="10" opacity="0.7"/><rect y="74" width="226" height="10" opacity="0.7"/></g>
         <g fill="#d8c9a8">
@@ -422,7 +423,7 @@
     </article>
 
     <article class="card">
-      <svg class="art" viewBox="0 0 226 84" width="226" height="84" role="img" aria-label="Stumps and a scoreboard showing eight dismissals for Litton Das">
+      <svg class="art" viewBox="0 0 226 84" width="226" height="84" preserveAspectRatio="none" role="img" aria-label="Stumps and a scoreboard showing eight dismissals for Litton Das">
         <rect width="226" height="84" fill="#173322"/>
         <path d="M56,84 L104,84 L124,40 L84,40 Z" fill="#2b5a3a"/>
         <g fill="#f4ecd8">
@@ -445,7 +446,7 @@
     </article>
 
     <article class="card">
-      <svg class="art" viewBox="0 0 226 84" width="226" height="84" role="img" aria-label="A Van Gogh chestnut blossom canvas on an easel, sold for 190.4 million dollars">
+      <svg class="art" viewBox="0 0 226 84" width="226" height="84" preserveAspectRatio="none" role="img" aria-label="A Van Gogh chestnut blossom canvas on an easel, sold for 190.4 million dollars">
         <rect width="226" height="84" fill="#132029"/>
         <g stroke="#8a7a5c" stroke-width="2">
           <line x1="86" y1="70" x2="70" y2="82"/><line x1="140" y1="70" x2="156" y2="82"/>
@@ -481,10 +482,7 @@
       <div class="entry"><div class="k">AMERICAS</div><div class="t">Hegseth signs a training pact with Venezuela</div></div>
       <div class="entry"><div class="k">AFRICA</div><div class="t">Senegal enacts its budget by decree for the IMF</div></div>
       <div class="entry"><div class="k">ASIA</div><div class="t">India and Japan deepen missile and maritime work</div></div>
-      <div class="entry"><div class="k">EUROPE</div><div class="t">A large cyberattack hits the European Commission</div></div>
-      <div class="entry"><div class="k">MID EAST</div><div class="t">Gaza's ministry counts two dead in a day</div></div>
       <div class="entry"><div class="k">ASIA</div><div class="t">IAEA: the Yongbyon enrichment hall is extended</div></div>
-      <div class="entry"><div class="k">AFRICA</div><div class="t">A migrant boat capsizes off Senegal</div></div>
       <div class="entry"><div class="k">AFRICA</div><div class="t">Somalia expels the UAE's ambassador</div></div>
       <div class="entry"><div class="k">FIELDS</div><div class="t">GTA VI arrives, its first female lead</div></div>
       <div class="entry"><div class="k">EUROPE</div><div class="t">A court blocks Imamoglu from the 2028 race</div></div>
